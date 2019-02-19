@@ -1,0 +1,13 @@
+certifi==2018.11.29
+cmake==3.13.3
+dlib==19.16.0
+imutils==0.5.2
+numpy==1.16.1
+opencv-python==4.0.0.21
+pbr==5.1.2
+Pillow==5.4.1
+six==1.12.0
+stevedore==1.30.0
+virtualenv==16.3.0
+virtualenv-clone==0.5.1
+virtualenvwrapper==4.8.2

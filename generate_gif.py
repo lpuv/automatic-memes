@@ -7,6 +7,8 @@ import numpy as np
 
 import moviepy.editor as mpy
 
+name = input("What should the name of the new file be? ")
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-image", required=True, help="path to input image")
 args = parser.parse_args()
@@ -98,4 +100,4 @@ def make_frame(t):
     return np.asarray(draw_img)
 
 animation = mpy.VideoClip(make_frame, duration=duration)
-animation.write_gif("deal.gif", fps=4)
+animation.write_gif(name + ".gif", fps=4)

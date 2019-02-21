@@ -7,6 +7,8 @@ import numpy as np
 
 import moviepy.editor as mpy
 
+name = input("What should the name of the new file be? ")
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-image", required=True, help="path to input image")
 args = parser.parse_args()

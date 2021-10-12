@@ -9,7 +9,7 @@ imageio-ffmpeg==0.2.0
 imutils==0.5.2
 moviepy==1.0.0
 numpy==1.16.1
-opencv-python==4.0.0.21
+opencv-python==4.2.0.32
 pbr==5.1.2
 Pillow==6.2.0
 proglog==0.1.9
